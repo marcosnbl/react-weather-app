@@ -1,11 +1,11 @@
 {
-  "homepage":"https://github.com/marcosnbl/aplicacion-del-clima-react.git",
-  "name": "react-weather-app",
+  "homepage": "https://marcosnbl.github.io/react-weather-app/",
+  "name": "react-weather-app-copia",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "webpack-dev-server --open",
     "build": "cross-env NODE_ENV=production webpack -p"
